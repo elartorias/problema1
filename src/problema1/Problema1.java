@@ -24,10 +24,8 @@ public class Problema1 {
             
             while((linea = bufo.readLine()) != null){
                 System.out.println(linea);
-                
-            
-            
-            }bufo.close();
+            }
+            bufo.close();
             
         }catch(FileNotFoundException ex) 
         {
@@ -35,10 +33,9 @@ public class Problema1 {
             System.out.println("No se pudo abrir el archivo '" + nombre + "'");                
         }
         catch(IOException ex) {
-            
-        }
             System.out.println("Error al leer el archivo '" + nombre + "'");
-            
+        }
+
         }
         
     }
