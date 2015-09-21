@@ -14,7 +14,7 @@ public class Problema1 {
         
         generador arc = new generador();
         arc.gen(10);
-        String nombre = "generador.in";
+        String nombre = "generador.txt";
         String linea = null;
         
         try

@@ -12,7 +12,7 @@ class generador {
         try
         {
             Random azar = new Random();
-            BufferedWriter salida = new BufferedWriter(new FileWriter("generador.in"));
+            BufferedWriter salida = new BufferedWriter(new FileWriter("generador.txt"));
                 for (int i = 0; i < numero; i++) {
                     salida.write(azar.nextInt(1999)+1+" ");                
                 }
