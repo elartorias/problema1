@@ -49,7 +49,7 @@ public class Problema1 {
             }
 
             
-            System.out.println(str=str.replaceAll(" ", ""));
+            str=str.replaceAll(" ", "");
 
         } catch (IOException e) {
             e.printStackTrace();
