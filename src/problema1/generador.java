@@ -16,6 +16,7 @@ class generador {
                 for (int i = 0; i < numero; i++) {
                     salida.write(azar.nextInt(1999)+1+" ");                
                 }
+            salida.close();
             
         }catch(IOException e){
             System.out.println("No");
